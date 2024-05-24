@@ -1,7 +1,5 @@
 # USPS OAuth SDK in Rust
 
-Based on the USPS OpenAPI specification. 
-
 See [USPS OAuth API documentation](https://developer.usps.com/api/81).
 
 OAuth access tokens are used to grant authorized access to USPS&#174; APIs. Access tokens will expire, requiring applications to periodically check the expiration time and get new tokens.

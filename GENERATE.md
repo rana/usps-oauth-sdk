@@ -1,7 +1,5 @@
 # USPS OAuth SDK in Rust
 
-Based on the USPS OpenAPI specification. 
-
 See [USPS OAuth API documentation](https://developer.usps.com/api/81).
 
 See [OpenAPI Generator Rust documentation](https://openapi-generator.tech/docs/generators/rust/).
