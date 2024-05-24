@@ -27,10 +27,14 @@ Step 3. Manually update Cargo.toml.
 - `reqwest`
     - Add `default-features = false`
     - Add `rustls-tls`
+- Add [dev-dependencies] for tests.
 ```toml
 reqwest = { version = "^0.12", default-features = false, features = [
     "json",
     "multipart",
     "rustls-tls",
 ] }
+
+[dev-dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
 ```
